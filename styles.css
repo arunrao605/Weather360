@@ -275,7 +275,7 @@ body, html {
 }
 
 .weather-card-mist::before {
-  background-image: url('gifs/mist.gif');
+  background-image: url('gifs/haze.gif');
 }
 
 .weather-card-default::before {
@@ -1000,4 +1000,5 @@ body, html {
 .leaflet-popup-tip {
   background-color: #222;
 }
+
 
