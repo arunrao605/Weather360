@@ -17,7 +17,7 @@ const background = document.getElementById('background');
 const hourlyCards = document.getElementById('hourlyCards');
 
 // Global variables
-let currentLocation = 'London';
+let currentLocation = 'Hyderabad';
 let chart = null;
 let blinkInterval = null;
 let weatherMap = null;
@@ -859,3 +859,4 @@ window.addEventListener('load', () => {
     fetchWeather(currentLocation);
   }, 3500);
 });
+
